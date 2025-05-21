@@ -1,7 +1,16 @@
-@use 'core/reset';
-@use 'components/code';
-@use 'components/links';
-@use 'layout/page';
-@use 'layout/header';
-@use 'layout/footer';
-@use 'pages/index';
+
+.black {
+    background-color: rgb(244, 127, 60);
+}
+
+.header {
+    color: white;
+}
+
+.anime {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}

@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>evaluation</title>
-</head>
-<body class="black">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <title>evaluation</title>
+  </head>
 
-  <header class="header">
-    <h1 class="anime"> Buscador de series de anime</h1>
-  </header>
+  <body class="black">
+    <header class="header">
+      <h1 class="anime">Buscador de series de anime</h1>
+    </header>
 
-  <main class="start">
-    <section class="section">
-      <form class="go">
-        <input type="serch" class="serch-input"> 
+    <main class="start">
+      <section class="sectionList">
+        <form class="go">
+          <input type="serch" class="serch-input" />
 
-        <button class="serch"> Buscar </button> 
-        <button class="double">Reset</button>
+          <button class="serch">Buscar</button>
+          <button class="double">Reset</button>
+        </form>
+        
+    <div>
+        <ul class="anime js_Anime">
+          <li class="animenaruto">
+            <h3>Naruto: Shippuuden</h3>
+            <img src="https://cdn.myanimelist.net/images/anime/1141/142503.jpg" />
+          </li>
 
-      </form>
-    </section>
+          <li class="animelast">
+            <h3>The Last: Naruto the Movie</h3>
+            <img src="https://cdn.myanimelist.net/images/anime/1491/134498.jpg" />
+          </li>
+
+          <li class="animeboruto">
+            <h3> Boruto: Naruto the Movie </h3>
+            <img src="https://cdn.myanimelist.net/images/anime/4/78280.jpg" />
+          </li>
+        </ul>
+  
+        </div>
+      </section>
     </main>
-</body>
-</html> 
 
+    <script src="./js/main.js"></script>
+  </body>
+</html>  
