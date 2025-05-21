@@ -32,7 +32,8 @@ const allAnimes = [
       },
 ];
 
-anime.innerHTML = `
+//DATOS
+`
 <div>
         <ul class="anime js_Anime">
           <li class="animenaruto">
@@ -49,12 +50,15 @@ anime.innerHTML = `
             <h3> Boruto: Naruto the Movie </h3>
             <img src="https://cdn.myanimelist.net/images/anime/4/78280.jpg" />
           </li>
-        </ul>
-  
+        </ul> 
         </div> `
 
-//DATOS
+for( const animenaruto of allAnimes);
 
+
+ 
+
+  
 //FUNCIONES
 
 //EVENTOS
