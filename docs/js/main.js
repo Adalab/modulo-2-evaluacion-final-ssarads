@@ -51,7 +51,7 @@ anime.innerHTML = `
           </li>
         </ul>
   
-        </div> 
+        </div> `
 
 //DATOS
 
